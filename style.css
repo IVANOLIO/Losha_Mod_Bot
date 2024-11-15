@@ -1,0 +1,94 @@
+
+dy {
+	    font-family: 'Roboto', sans-serif;
+	        margin: 0;
+		    padding: 0;
+		        background: linear-gradient(to right, #2e0249, #7510f7);
+			    color: #fff;
+			        text-align: center;
+				    min-height: 100vh;
+				        display: flex;
+					    flex-direction: column;
+					        justify-content: center;
+						    align-items: center;
+						        animation: fadeIn 1s ease-in-out;
+						}
+
+						/* الحاوية */
+						.container {
+							    background: rgba(255, 255, 255, 0.15);
+							        padding: 30px;
+								    border-radius: 15px;
+								        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+									    max-width: 650px;
+									        width: 90%;
+										    backdrop-filter: blur(10px);
+										        animation: scaleUp 0.5s ease-in-out;
+										}
+
+										/* النصوص */
+										h1 {
+											    font-size: 2.5em;
+											        margin-bottom: 20px;
+												    color: #f3e8ff;
+												        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+												}
+
+												#quote {
+													    font-size: 1.7em;
+													        font-weight: bold;
+														    line-height: 1.6;
+													    }
+
+													    #author {
+														        font-size: 1.3em;
+															    margin-top: 10px;
+															        color: #c9b6f8;
+															}
+
+															/* الزر */
+															.btn {
+																    background: linear-gradient(to right, #7510f7, #2e0249);
+																        color: #fff;
+																	    padding: 12px 25px;
+																	        border: none;
+																		    border-radius: 50px;
+																		        margin-top: 20px;
+																			    cursor: pointer;
+																			        font-size: 1.1em;
+																				    transition: transform 0.3s ease, background 0.3s ease;
+																				        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+																				}
+
+																				.btn:hover {
+																					    background: linear-gradient(to right, #2e0249, #7510f7);
+																					        transform: scale(1.05);
+																					}
+
+																					/* الفوتر */
+																					footer {
+																						    margin-top: 30px;
+																						        font-size: 0.9em;
+																							    color: #ddd;
+																							        opacity: 0.8;
+																								    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+																							    }
+
+																							    /* الحركات */
+																							    @keyframes fadeIn {
+																								        from {
+																										        opacity: 0;
+																											    }
+																											        to {
+																													        opacity: 1;
+																														    }
+																													    }
+
+																													    @keyframes scaleUp {
+																														        from {
+																																        transform: scale(0.8);
+																																	    }
+																																	        to {
+																																			        transform: scale(1);
+																																				    }
+																																			    }
