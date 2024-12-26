@@ -151,6 +151,21 @@ async def main():
 
     await application.run_polling()
 
+import asyncio
+
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    try:
+        # حاول استخدام الحلقة الحالية إذا كانت موجودة
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        # إذا لم تكن هناك حلقة، أنشئ واحدة جديدة
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
+    try:
+        loop.run_until_complete(main())
+    except KeyboardInterrupt:
+        print("تم إيقاف البرنامج بواسطة المستخدم.")
+    finally:
+        if not loop.is_closed():
+            loop.close()
