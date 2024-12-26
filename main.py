@@ -24,9 +24,16 @@ applicants = {}
 async def check_subscription(user_id, bot):
     if required_channel:
         try:
+            # محاولة الحصول على حالة الاشتراك
             status = await bot.get_chat_member(required_channel, user_id).status
-            return status in ["member", "administrator", "creator"]
-        except:
+            # إذا كان المستخدم عضوًا أو مسؤولًا أو منشئًا، يتم التحقق بنجاح
+            if status in ["member", "administrator", "creator"]:
+                return True
+            else:
+                return False
+        except Exception as e:
+            # طباعة رسالة الخطأ إذا حدث استثناء
+            print(f"Error checking subscription for user {user_id}: {e}")
             return False
     return True
 
