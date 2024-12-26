@@ -2,6 +2,10 @@ from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, ConversationHandler, filters
 import pymongo
 from bson.objectid import ObjectId
+import nest_asyncio  # إضافة هذه المكتبة لتطبيق الحلقات المتداخلة
+
+# تطبيق nest_asyncio لتفعيل دعم الحلقات المتداخلة
+nest_asyncio.apply()
 
 # إعدادات MongoDB
 client = pymongo.MongoClient("mongodb+srv://TelegramBot:XshSRgwp0g6vbwPN@curiox.ttgbp.mongodb.net/?retryWrites=true&w=majority&appName=CurioX")
@@ -151,17 +155,9 @@ async def main():
 
     await application.run_polling()
 
-import asyncio
-
 if __name__ == "__main__":
-    try:
-        # حاول استخدام الحلقة الحالية إذا كانت موجودة
-        loop = asyncio.get_event_loop()
-    except RuntimeError:
-        # إذا لم تكن هناك حلقة، أنشئ واحدة جديدة
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-
+    import asyncio
+    loop = asyncio.get_event_loop()
     try:
         loop.run_until_complete(main())
     except KeyboardInterrupt:
