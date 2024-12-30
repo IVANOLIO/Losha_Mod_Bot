@@ -1,0 +1,57 @@
+DEBUG Loaded flyctl config from/data/data/com.termux/files/home/.fly/config.yml
+DEBUG determined hostname: "localhost"
+DEBUG determined working directory: "/data/data/com.termux/files/home"
+DEBUG determined config directory: "/data/data/com.termux/files/home/.fly"
+DEBUG ensured config directory exists.
+DEBUG ensured config directory perms.
+DEBUG cache loaded.
+DEBUG config initialized.
+DEBUG skipped querying for new release
+DEBUG checking for updates...
+DEBUG client initialized.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.toml; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.json; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.yaml; skipped.
+DEBUG Starting task manager
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG retrieved access token.
+DEBUG --> POST https://api.fly.io/graphql
+
+DEBUG {
+  "query": "query { viewer { ... on User { id email enablePaidHobby } ... on Macaroon { email } } }",
+  "variables": null
+}
+
+
+DEBUG {}
+DEBUG <-- 200 https://api.fly.io/graphql (293.44ms)
+
+DEBUG {
+  "data": {
+    "viewer": {
+      "id": "P6qAJbgQA96OpHmkpz00",
+      "email": "nanotm748@gmail.com",
+      "enablePaidHobby": true
+    }
+  }
+}
+
+DEBUG Task manager done
+DEBUG started querying for statuspage incidents
+DEBUG failed querying for Statuspage incidents. Context cancelled or deadline exceeded: Get "https://incidents.flyio.net/v1/incidents": context deadline exceeded

@@ -1,0 +1,143 @@
+DEBUG determined hostname: "localhost"
+DEBUG determined working directory: "/data/data/com.termux/files/home"
+DEBUG determined config directory: "/data/data/com.termux/files/home/.fly"
+DEBUG ensured config directory exists.
+DEBUG ensured config directory perms.
+DEBUG cache loaded.
+DEBUG config initialized.
+DEBUG skipped querying for new release
+DEBUG checking for updates...
+DEBUG client initialized.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.toml; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.json; skipped.
+DEBUG no app config found at /data/data/com.termux/files/home/fly.yaml; skipped.
+DEBUG Starting task manager
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG failed retrieving token: Not Found
+DEBUG started querying for statuspage incidents
+DEBUG Task manager done
+DEBUG querying for statuspage incidents resulted to &{[]}
